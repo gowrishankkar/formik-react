@@ -8,9 +8,9 @@ const initialValues = {
   channel: "",
 };
 
-// const onSubmit = (values) => {
-//   console.log("values", values);
-// };
+const onSubmit = (values) => {
+  console.log("values", values);
+};
 
 const validationSchema = Yup.object({
   name: Yup.string().required("Required"),
